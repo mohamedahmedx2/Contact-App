@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primaryBackground">#29384D</color>
+    <color name="primaryTextColor">#29384D</color>
+    <color name="buttonBackground">#FFFFFF</color>
+    <color name="hintColor">#FFFFFF</color>
+    <color name="borderColor">#00000D</color>
+
+    <color name="teal_700">#018786</color>
+
+
+</resources>

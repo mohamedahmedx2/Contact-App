@@ -1,0 +1,23 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Contacts" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="floatingActionButtonStyle">@style/FloatingActionBottomStyle</item>
+        <item name="android:colorBackground">#29384D</item>
+    </style>
+
+    <style name="Theme.Contacts" parent="Base.Theme.Contacts" />
+
+    <style name="FloatingActionBottomStyle" parent="Widget.Design.FloatingActionButton">
+        <item name="shapeAppearanceOverlay">
+            @style/FabShapeStyle1
+        </item>
+    </style>
+
+    <style name="FabShapeStyle1" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+
+        <item name="cornerSize">16dp</item>
+
+    </style>
+</resources>
