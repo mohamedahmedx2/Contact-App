@@ -110,7 +110,6 @@ class ContactActivity : AppCompatActivity() {
                     name = userName,
                     emailName = userEmail,
                     phoneNumber = userPhone,
-                    imageRemove = null
                 )
                 adapter.addContact(contact)
                 updateUI()
